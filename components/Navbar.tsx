@@ -32,9 +32,12 @@ const Navbar = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="w-full hidden md:flex space-x-8 justify-center">
+        <div className="w-full hidden md:flex space-x-8 justify-end">
           <Link href="/" className="text-gray-600 hover:text-black">
             Home
+          </Link>
+          <Link href="/about" className="text-gray-600 hover:text-black">
+            About Me
           </Link>
           <Link href="/projects" className="text-gray-600 hover:text-black">
             Projects
